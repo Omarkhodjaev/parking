@@ -8,10 +8,14 @@ export class CarRepository {
     private repository: Repository<CarEntity>,
   ) {}
 
+
+  
+
   async getOneByIndex(index: string): Promise<CarEntity | undefined> {
     return await this.repository.findOne({
       relations: ['owner'],
       where: { index },
     });
   }
+
 }

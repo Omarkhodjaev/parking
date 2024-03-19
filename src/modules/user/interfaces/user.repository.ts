@@ -1,4 +1,3 @@
-import { CreateAuthDto } from 'src/modules/auth/dto/create-auth.dto';
 import { UserEntity } from '../entities/user.entity';
 import { ID } from 'src/common/types/type';
 import { CreateUserDto } from '../dto/create-user.dto';
