@@ -5,6 +5,7 @@ import { ParkRepository } from './park.repository';
 import { ResData } from 'src/lib/resData';
 import { ParkEntity } from './entities/park.entity';
 import { ParkNotFoundException } from './exception/park.exception';
+import { IParkService } from './interfaces/park.service';
 
 @Injectable()
 export class ParkService {
