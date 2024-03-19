@@ -13,7 +13,7 @@ import { CreateParkDto } from './dto/create-park.dto';
 import { UpdateParkDto } from './dto/update-park.dto';
 import { ApiTags } from '@nestjs/swagger';
 
-@ApiTags('Car')
+@ApiTags('park')
 @Controller('park')
 export class ParkController {
   constructor(private readonly parkService: ParkService) {}
